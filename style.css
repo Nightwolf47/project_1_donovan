@@ -4,12 +4,24 @@ h1 {
     height: 100px;
     text-align: center;
     line-height: 100px;
+    position: relative;
+    font-family: 'Bungee', cursive;
+}
+
+header{
+    width: 650px;
+    margin: auto;
 }
 
 #busey {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
     color: aqua;
     background-color: black;
     border: dotted orange 5px;
+    width:500px;
+    text-align: center;
 }
 
 body{
@@ -49,6 +61,8 @@ li{
     float: left;
     height:20px;
     width:auto;
+    margin-left: 10px;
+    margin-right:10px;
     position: relative;
     border: 5px solid black;
     border-radius: 10px;
@@ -58,4 +72,16 @@ li{
 .video{
    
     text-align: center;
+}
+
+p{
+    font-family: "IM Fell DW Pica SC", serif;
+}
+
+.shouting{
+    background-image: url("images/screaming.gif");
+}
+
+.ytplayer{
+    pointer-events: none;
 }

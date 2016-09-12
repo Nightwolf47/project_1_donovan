@@ -8,80 +8,111 @@ h1 {
     font-family: 'Bungee', cursive;
 }
 
-header{
+h1:hover {
+    background-color: black;
+    border: solid maroon 5px;
+    transition: 0.5s all;
+}
+
+header {
     width: 650px;
     margin: auto;
 }
 
-#busey {
+#monologue {
     display: block;
     margin: auto;
     margin-bottom: 10px;
     color: aqua;
     background-color: black;
-    border: dotted orange 5px;
-    width:500px;
+    border: solid orange 5px;
+    width: 500px;
     text-align: center;
+    padding: 10px;
+    transition: 1s all;
 }
 
-body{
+#monologue:hover {
+    background-color: forestgreen;
+    transition: 1s all;
+}
+
+body {
     background-image: url(images/space.png);
 }
 
-#busey:hover {
-    background-color: maroon;
-    color: chocolate;
-    transition: 1s all;
-    border: solid black 5px;
-    border-radius: 20px;
+a:link {
+    color: azure;
 }
 
-a:link{
-    color:azure;
-    
+a:visited {
+    color: darkorange;
 }
 
-a:visited{
-    color:aqua
-}
-
-.nav{
-    width:100%;
+.nav {
+    width: 100%;
     list-style: none;
     text-align: center;
     position: relative;
     display: inline-block;
 }
 
-.image{
+.image {
     text-align: center;
 }
 
-li{
+nav ul li {
     float: left;
-    height:20px;
-    width:auto;
-    margin-left: 10px;
-    margin-right:10px;
+    height: 20px;
+    width: auto;
+    margin-right: 20px;
     position: relative;
     border: 5px solid black;
     border-radius: 10px;
-    background-color:maroon;
+    background-color: maroon;
+    transition: 1s all;
 }
 
-.video{
-   
+.video {
     text-align: center;
 }
 
-p{
+p {
     font-family: "IM Fell DW Pica SC", serif;
 }
 
-.shouting{
+.shouting {
     background-image: url("images/screaming.gif");
 }
 
-.ytplayer{
+.ytplayer {
     pointer-events: none;
+}
+
+h2 {
+    text-align: center;
+    color: darkorange
+}
+
+.command li {
+    text-align: center;
+    color: darkorange;
+    width: 400px;
+    margin: auto
+}
+
+nav ul li:hover {
+    border: 5px solid black;
+    background-color: navy;
+    transition: 1s all;
+}
+
+footer {
+    text-align: center;
+    color: aqua;
+}
+
+.commandments{
+    background-color: black;
+    border: maroon solid 5px;
 }
